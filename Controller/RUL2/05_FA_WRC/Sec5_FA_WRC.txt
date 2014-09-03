@@ -674,8 +674,6 @@
 ;
 ; End of Wide radius curves Street Section
 ;----------------------------
-;
-;----------------------------
 ; WRC Avenue section
 ; Added by Swordmaster 3 Sept 2014
 ; AVE small 90 degree curve
