@@ -13,6 +13,8 @@ AddTypes     = A905, 1A905, 2A905, 3A905, 4A905, 5A905, 6A905, 7A905 ;DTR B2 Swi
 AddTypes     = A906, 1A906, 2A906, 3A906, 4A906, 5A906, 6A906, 7A906 ;DTR Diagonal B2 Switch
 AddTypes     = A907, 1A907, 2A907, 3A907, 4A907, 5A907, 6A907, 7A907 ;DTR Ortho Crossover
 AddTypes     = A908, 1A908, 2A908, 3A908, 4A908, 5A908, 6A908, 7A908 ;DTR Wye
+AddTypes     = A909, 1A909, 2A909, 3A909, 4A909, 5A909, 6A909, 7A909 ;Flex OST L1
+AddTypes     = A90A, 1A90A, 2A90A, 3A90A, 4A90A, 5A90A, 6A90A, 7A90A ;Flex OST L2
 
 
 ;###separator###
@@ -210,3 +212,91 @@ CopyFrom    = 0x1A908
 CopyFrom    = 0x2A908
 [HighwayIntersectionInfo_0x0007A908]
 CopyFrom    = 0x3A908
+
+
+
+[HighwayIntersectionInfo_0x0000A909]
+;Added by Swordmaster 14 Aug 2014
+;Rail FLEX-OST 1-LEVEL
+Piece = 0.0, -16.0, 0, 0, 0x5d6f0006
+PreviewEffect = preview_rrw2_l0l1onslope001
+
+CellLayout=....
+CellLayout=..a.
+CellLayout=..b<
+CellLayout=..^.
+
+CheckType = a - rail: 0x00000400 dirtroad: 0x02040200, 0xFFFFFFFF optional
+CheckType = b - road: 0x00000000
+
+ConsLayout=....
+ConsLayout=....
+ConsLayout=....
+ConsLayout=..+<
+ConsLayout=..^.
+
+AutoTileBase = 0x55387000
+PlaceQueryID = 0x5d6f0001
+Costs = 600
+
+[HighwayIntersectionInfo_0x0001A909]
+CopyFrom	=	0xA909
+Rotate	=	1
+[HighwayIntersectionInfo_0x0002A909]
+CopyFrom	=	0xA909
+Rotate	=	2
+[HighwayIntersectionInfo_0x0003A909]
+CopyFrom	=	0xA909
+Rotate	=	3
+[HighwayIntersectionInfo_0x0004A909]
+CopyFrom	=	0xA909
+[HighwayIntersectionInfo_0x0005A909]
+CopyFrom	=	0x1A909
+[HighwayIntersectionInfo_0x0006A909]
+CopyFrom	=	0x2A909
+[HighwayIntersectionInfo_0x0007A909]
+CopyFrom	=	0x3A909
+
+
+
+[HighwayIntersectionInfo_0x0000A90A]
+;Added by Swordmaster 15 Aug 2014
+;Rail FLEX-OST 2-LEVEL
+Piece = 0.0, -16.0, 0, 0, 0x5d7f0006
+PreviewEffect = preview_rrw2_l0l2onslope001
+
+CellLayout=....
+CellLayout=..a.
+CellLayout=..b<
+CellLayout=..^.
+
+CheckType = a - rail: 0x00000400 dirtroad: 0x02040204, 0xFFFFFFFF optional
+CheckType = b - road: 0x00000000
+
+ConsLayout=....
+ConsLayout=....
+ConsLayout=....
+ConsLayout=..+<
+ConsLayout=..^.
+
+AutoTileBase = 0x55387000
+PlaceQueryID = 0x5d7f0001
+Costs = 600
+
+[HighwayIntersectionInfo_0x0001A90A]
+CopyFrom	=	0xA90A
+Rotate	=	1
+[HighwayIntersectionInfo_0x0002A90A]
+CopyFrom	=	0xA90A
+Rotate	=	2
+[HighwayIntersectionInfo_0x0003A90A]
+CopyFrom	=	0xA90A
+Rotate	=	3
+[HighwayIntersectionInfo_0x0004A90A]
+CopyFrom	=	0xA90A
+[HighwayIntersectionInfo_0x0005A90A]
+CopyFrom	=	0x1A90A
+[HighwayIntersectionInfo_0x0006A90A]
+CopyFrom	=	0x2A90A
+[HighwayIntersectionInfo_0x0007A90A]
+CopyFrom	=	0x3A90A
